@@ -1,0 +1,25 @@
+.menu>ul>li{
+    display:inline-block;
+}
+.menu>ul>li>a{
+    display:block;
+}
+.menu>ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    border-radius:3 pixel;
+    background-color:orangered;
+    text-align:center;
+}
+.menu>ul>li>a{
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10 pixel;
+    line-height:40 pixel;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}

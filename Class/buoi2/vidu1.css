@@ -1,0 +1,33 @@
+div {
+    color:black;
+    background-color: red;
+}
+
+p{
+    /* Cỡ chữ*/
+    font-size: 20px;
+    /* Định dạng font chữ*/
+    font-family: 'Courier New', Courier, monospace;
+    /* Chiều cao của dòng văn bản*/
+    line-height: 30px;
+    /*chữ đậm*/
+    font-weight: bold;
+    /*in nghiêng*/
+    font-style: italic;
+    /*gạch chân*/
+    text-decoration: underline;
+    /*chữ hia dạng nhỏ*/
+    font-variant: small-caps;
+}
+
+h1{
+    /*chữ in hoa*/
+    text-transform: uppercase;
+    /* căn chỉnh văn bản */
+    text-align: center;
+    /* đổ bóng văn bản */
+    text-shadow: -5px -5px 4px red;
+    /**/
+
+    
+}

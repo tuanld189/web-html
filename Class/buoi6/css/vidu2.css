@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    padding: 10px o;
+}
+table{
+    width: 500px;
+    margin: auto;
+}
+table,th,td{
+    border: 1px solid #ccc;
+    /* loai bo vien */
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+thead tr{
+    background-color: #bb4141;
+}
+/* Ap dung cho nhung so le */
+tbody tr:nth-child(2n+1){
+    background-color: aquamarine;
+}
+/* Ap dung cho nhung con chan */
+tbody tr:nth-child(2n){
+    background-color: beige;
+}
+/* Cot dau tien */
+tbody tr td:first-child{
+    text-align: center;
+}
+/* tbody tr:nth-child(2n-1){
+    text-align: center;
+} */
+tbody tr td:nth-child(2){
+    font-weight: bold;
+}

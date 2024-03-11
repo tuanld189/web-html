@@ -1,0 +1,42 @@
+#sao{
+    font-size: 45px;
+    color: pink;
+    text-align: center;
+    font-variant: small-caps;
+}
+.para {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-size:20px;
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+.para b{
+    color: brown;
+}
+.para1 {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-size:20px;
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+.para1 b{
+    color: brown;
+}
+.para2 {
+    color: green;
+    text-align: center;
+    font-style: italic;
+    font-size:20px;
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+.para2 b{
+    color: brown;
+}

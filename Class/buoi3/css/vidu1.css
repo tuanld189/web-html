@@ -1,0 +1,25 @@
+.box1{
+    text-align: justify;
+    border: 1px solid red;
+    /* Độ rộng của box*/
+    width: 300px;
+    /*Khoảng đệm bên trong góc*/
+    padding: 20px 30px 40px 50px;
+    /* trên phải dưới trái*/
+    /*Khoảng đệm bên ngoài*/
+    margin: 20px;
+    /*Màu nền*/
+    background-color: antiquewhite;
+    /*Ảnh nền*/
+    background-image: url('../img/backgroud1.jpg');
+    /*Kính thước ảnh nền*/
+    background-size: 100px;
+    /*ảnh lặp*/
+    background-repeat: no-repeat;
+    /* Định vị trí cho ảnh nền*/
+    background-position: center right;
+    /*bo viền*/
+    border-radius: 10px 20px 30px 40px;
+    /*Đổ bóng*/
+    box-shadow: inset 5px 5px 4px blue;
+}

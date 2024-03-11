@@ -1,0 +1,8 @@
+.menu{
+    text-align: center;
+    line-height: 40px;
+}
+.menu a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;

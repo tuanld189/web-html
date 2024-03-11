@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+form{
+    width:500px;
+    margin:20px auto;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form-group{
+    padding-top: 10px;
+}
+.form-group label{
+    display:block;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-control{
+    width:100%;
+    height:30px;
+    padding-left: 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+}
+/* Khi người dùng nhập dữ liệu */
+.form-control:focus{
+    border: 1px solid blue;
+    background-color: orange;
+    color:whitesmoke;
+}
+textarea.form-control{
+    padding: 5px;
+    height: 100px;
+}
+/* css bottom */
+.form-group button{
+    padding:8px 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px green;
+    background-color: rgba(5, 222, 226, 0.807);
+    cursor: pointer;
+}

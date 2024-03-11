@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 960px;
+    margin: 10px auto;
+}
+header {
+    height: 80px;
+    line-height: 80px;
+}
+header img{
+    float: left;
+}
+header form {
+    float: right;
+}
+nav {
+    background-color: orange;
+    line-height: 45px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 15 px;
+}
+nav ul a:hover {
+    text-decoration: underline;
+}
+.banner img{
+    width: 100%;
+    margin: 10%;
+}

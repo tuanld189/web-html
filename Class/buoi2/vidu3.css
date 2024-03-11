@@ -1,0 +1,16 @@
+.menu {
+    text-align: center;
+    line-height: 40px;
+
+}
+.menu a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:red;
+}
+.menu a:visited{
+    color: purple;
+}

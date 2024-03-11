@@ -1,0 +1,21 @@
+.para {
+    color:red;
+    font-style: italic;
+}
+.para b {
+    color: brown;
+}
+.para1 {
+    color: blue;
+    font-style: italic;
+}
+.para1 b {
+    color: brown;
+}
+.para2 {
+    color: green;
+    font-style: italic;
+}
+.para2 b {
+    color: brown;
+}

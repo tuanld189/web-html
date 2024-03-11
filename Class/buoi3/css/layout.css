@@ -1,0 +1,37 @@
+/*Reset tất cả các thẻ HTML*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 1020px;
+    /*để wedside vào giữa*/
+    margin: auto;
+}
+
+header{
+    height: 50px;
+    background-color: orange;
+}
+nav{
+    line-height: 40px;
+    background-color: green;
+}
+article{
+    width: 70%;
+    background-color: orangered;
+    height: 200px;
+    float:left;
+}
+aside{
+    width: 30%;
+    background-color: purple;
+    height: 400px;
+    float: right;
+}
+footer{
+    clear: both;
+    background-color: blue;
+    height: 50px;
+}

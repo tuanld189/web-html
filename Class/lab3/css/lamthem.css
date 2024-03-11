@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 1020px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    height: 50px;
+    background-image: url("anh1.jpg");
+}
+nav{
+    text-align: center;
+    line-height: 40px; 
+    background-color: green;
+    color: white;
+}
+article{
+    width: 70%;
+    background-color: orangered;
+    height: 400px;
+    float:left;
+}
+aside{
+    width: 30%;
+    background-color: purple;
+    height: 400px;
+    float: right;
+}
+footer{
+    clear: both;
+    background-color: blue;
+    height: 50px;
+}

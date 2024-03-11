@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form </title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="hoten">Họ tên</label>
+        <input type="Text"  id="hoten" placeholder="Họ tên" readonly disabied>  
+        <br>
+        <label for="">Mật khẩu</label>
+        <input type="password">
+        <br>
+        <label for="">Nội dung</label>
+        <br>
+        <textarea name=""  id="" cols="70" rows="5"></textarea>
+        <br>
+        <label for="">Quốc gia</label>
+        <select>
+            <option value="VN">Việt Nam</option>
+            <option value="FR">Pháp</option>
+            <option value="USA">Mỹ</option>
+            <option value="JP">Nhật Bản</option>
+        </select>
+        <!--Listbox-->
+        <br>
+        <label for="">Bẳng cấp</label>
+        <select muitiple>
+            <option value="">Bằng cấp 2</option>
+            <option value="">Bằng cấp 3</option>
+            <option value="">Cử nhân</option>
+            <option value="">Kỹ sư</option>  
+        </select>
+
+
+
+        <br>
+        <fieldset>
+            <legend>Sở thích</legend>
+            <input type="checkbox">Bóng đá
+            <br>
+            <input type="checkbox">Xem phim
+            <br>
+            <input type="checkbox">Nghe nhạc
+            <br>
+            <input type="checkbox">Mua sắm
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Giới tính</legend>
+            <input type="radio" name="gioitinh" checked> Nam
+            <input type="radio" name="gioitinh"> Nữ
+        </fieldset>
+        <br>
+        <label for="upload file"></label>
+        <br>
+        <input type="file">
+        <br>
+        <label for="">Input hidden</label>
+        <input type="hidden">
+        <br>
+        <button type="submit">Gửi đi</button>
+        <button type="reset">Làm lại</button>
+    </form>
+    
+</body>
+</html>
